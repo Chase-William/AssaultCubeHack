@@ -1,5 +1,4 @@
 #include <Windows.h>
-#include "pch.h"
 #include <iostream>
 
 void CreateConsole()
