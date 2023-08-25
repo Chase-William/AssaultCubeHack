@@ -13,23 +13,59 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Header Files\imgui">
+      <UniqueIdentifier>{a1d96690-fb01-4618-b32e-e6638bb47f55}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\imgui\custom">
+      <UniqueIdentifier>{cd6d3625-b3eb-43fb-8cdf-eed99d58067d}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="imgui_impl_win32.cpp">
+      <Filter>Header Files\imgui</Filter>
+    </ClCompile>
     <ClCompile Include="imgui_impl_dx11.cpp">
+      <Filter>Header Files\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="Drawing.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="imgui_impl_win32.cpp">
+    <ClCompile Include="Win32Helper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_combo_autoselect.cpp">
+      <Filter>Header Files\imgui\custom</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui-combo-filter.cpp">
+      <Filter>Header Files\imgui\custom</Filter>
+    </ClCompile>
+    <ClCompile Include="Injector.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="imgui_impl_win32.h">
+      <Filter>Header Files\imgui</Filter>
+    </ClInclude>
     <ClInclude Include="imgui_impl_dx11.h">
+      <Filter>Header Files\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="Drawing.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="imgui_impl_win32.h">
+    <ClInclude Include="Win32Helper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui_combo_autoselect.h">
+      <Filter>Header Files\imgui\custom</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui-combo-filter.h">
+      <Filter>Header Files\imgui\custom</Filter>
+    </ClInclude>
+    <ClInclude Include="Injector.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

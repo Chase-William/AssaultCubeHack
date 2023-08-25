@@ -57,7 +57,7 @@ BOOL APIENTRY DllMain( HMODULE hModule,
     switch (ul_reason_for_call)
     {
     case DLL_PROCESS_ATTACH: {
-        // MessageBoxA(NULL, "Hello From", "Within Side!", MB_OK);
+        MessageBoxA(NULL, "Hello From", "Within Side!", MB_OK);
         
         CreateThread(NULL, NULL, HookThread, hModule, NULL, NULL);
 
